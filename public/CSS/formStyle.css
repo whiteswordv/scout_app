@@ -7,13 +7,13 @@
 
 body {
     /*this is where Im putting all the vars*/
-    --text_color: rgb(187, 185, 215);
-    --front_color: rgb(79, 74, 168);
-    --shadow_color: rgb(28, 8, 53);
+    --text_color: rgb(208, 197, 223);
+    --front_color: rgb(94, 92, 149);
+    --shadow_color: rgb(22, 8, 53);
     --inner_color: rgb(47, 44, 98);
 
-    --hover_color: rgb(187, 185, 215);
-    --select_color: rgb(163, 180, 255);
+    --hover_color: rgb(160, 156, 216);
+    --select_color: rgb(255, 255, 255);
 
     --background_color: rgb(46, 36, 73);
 
@@ -33,6 +33,7 @@ body {
 
 #footer:hover {
     color: rgb(134, 112, 190);
+    text-shadow: 0.1rem 0.1rem 1rem rgba(226, 222, 234, 0.453);
 }
 
 #header {
@@ -99,9 +100,9 @@ input:hover {
 }
 
 input:focus {
-    outline: 1px solid var(--select_color);
+    outline: 3px solid var(--select_color);
 
     scale: 105%;
     box-shadow: 0.3rem 0.3rem 0.3rem var(--shadow_color);
-    border-radius: 1px;
+    border-radius: 5px;
 }
